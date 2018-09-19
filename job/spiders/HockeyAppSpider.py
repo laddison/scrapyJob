@@ -15,8 +15,8 @@ class HockeyAppSpider(scrapy.Spider):
 
     name = "hock"
     host = "https://rink.hockeyapp.net/"
-    username = "wl3175924472@gmail.com"
-    password = "wanglewangluo520!@#"
+    username = "*************" # 账号
+    password = "*************" # 密码
     headerData = {
         "Referer": "https://rink.hockeyapp.net/users/sign_in",
         'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
